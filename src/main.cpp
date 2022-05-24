@@ -66,8 +66,8 @@ void SmartLedsOff() {
 
 void blink() { // blikani zadanou LED , 10 vypne všechny LED
     while (true) { 
-        rkSmartLedsRGB(3, 255, 255, 255);
-        delay(DELAY_BLINK);
+        // rkSmartLedsRGB(3, 255, 255, 255);
+        // delay(DELAY_BLINK);
         rkSmartLedsRGB(3, 0, 0, 0);
         delay(DELAY_BLINK); 
     }
