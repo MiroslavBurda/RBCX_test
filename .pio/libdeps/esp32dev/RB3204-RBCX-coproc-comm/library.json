@@ -1,0 +1,26 @@
+{
+  "name": "RB3204-RBCX-coproc-comm",
+  "keywords": "",
+  "description": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RoboticsBrno/RB3204-RBCX-coproc-comm.git"
+  },
+  "authors": [
+    {
+      "name": "Vojtech Bocek",
+      "email": "vbocek@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "Nanopb",
+      "version": "https://github.com/nanopb/nanopb/archive/nanopb-0.4.3.zip"
+    }
+  ],
+  "version": "0.0.1",
+  "frameworks": "*",
+  "platforms": "*"
+}
